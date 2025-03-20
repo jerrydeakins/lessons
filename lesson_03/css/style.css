@@ -1,0 +1,41 @@
+@import url("reset.css");
+
+[class*="content"]{
+	color: #2e2e2e;
+}
+
+.nav > li a {
+    color: red;
+}
+
+.nav ul a {
+    color:blue;
+}
+
+.nav ul ul a {
+    color: #4597f7;
+}
+
+#intro > p {
+    color: orange;
+}
+
+#cultures ~ p {
+    color: green;
+}
+
+#resources + p {
+    color: #4597f7;
+}
+
+[id*="memo"] {
+	color: goldenrod;
+}
+
+.list .item {
+    color: palevioletred;
+}
+
+.text.copyright {
+    color:red;
+}
