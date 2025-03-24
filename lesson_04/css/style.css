@@ -49,7 +49,6 @@ body {
 
 .text-info + p {
     font-family: "Blogger", sans-serif;
-    font-style: 400;
     text-decoration: underline overline #4e4e4e;
 }
 
