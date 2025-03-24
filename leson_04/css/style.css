@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.25;
+}
+
+.nav a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.title-header, .title_lesson {
+    color: #1a1a1a;
+}
+
+.title-header {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #3a3a3a;
+    text-transform: uppercase;
+    line-height: 1.5;
+    
+}
+
+.main-text {
+    color: rgba(94, 2, 17, 0.5);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.text-green {
+    color: green;
+    text-align: right;
+    letter-spacing: 1.2px;
+}
+
+.text-info {
+    color: #664303;
+    font-style: italic;
+    text-align: center;
+}
+
+.text-info + p {
+    font-family: "Blogger", sans-serif;
+    font-style: 400;
+    text-decoration: underline overline #4e4e4e;
+}
+
+.text-title{
+    color: red;
+    font-family: "Blogger", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.text-title ~ p {
+    color: #75030d;
+    line-height: 1.4;
+}
+
+.section_lesson {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+
+.lesson_title{
+    color: rgba(5, 54, 82, 0.8);
+    font-family: "Blogger", sans-serif;
+    font-size: 24px;
+}
+
+.section_lesson .title_lesson {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.section_lesson > p {
+    color: #808080;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.footer p {
+    color: #025736;
+    word-spacing: 3px;
+    text-decoration: line-through;
+}
