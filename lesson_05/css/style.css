@@ -7,14 +7,14 @@ body {
 }
 
 .nav-container {
-	background-color: #afafaf;
-	margin-bottom: 30px;
-}
-
-.header {
 	width: 1280px;
 	margin: 0 auto;
 	padding: 25px 0;
+}
+
+.header {
+	margin-bottom: 30px;
+	background-color: #afafaf;
 }
 
 .logo {
@@ -50,20 +50,21 @@ h1.title {
 }
 
 .section-lessons {
-	width: 1280px;
-	margin: 0 auto;
+	
+	margin-bottom: 40px;
 }
 
-.section-lessons > h2 {
+.container-lessons {
+	width: 1280px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.container-lessons > h2 {
 	font-size: 24px;
 	font-weight: 700;
 	color: #e74040;
 	margin-bottom: 25px;
-}
-
-.container-lessons {
-	padding: 10px;
-	margin-bottom: 40px;
 }
 
 .block-lesson {
