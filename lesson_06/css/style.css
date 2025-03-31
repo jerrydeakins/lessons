@@ -1,0 +1,238 @@
+/* Google Fonts (Plugin) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300..700&display=swap');
+
+@import url("reset.css");
+
+body {
+	font-size: 14px;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.header {
+	background-color: #333;
+	margin-bottom: 30px;
+	font-family: "Poppins", sans-serif;
+}
+
+.header-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.logo {
+	display: inline-block;
+	max-width: 300px;
+	width: 100%;
+	font-weight: 700;
+	font-size: 26px;
+	color: #7a956b;
+}
+
+.nav {
+	display: inline-block;
+}
+
+.item {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 26px;
+}
+
+.item a {
+	color: #00b207;
+	text-decoration: underline;
+}
+
+/* ECOBAZAR */
+
+.ecobozar {
+	font-family: "Poppins", sans-serif;
+	line-height: 1.5;
+	color: #808080;
+	margin-bottom: 60px;
+}
+
+.ecobazar-container {
+	max-width: 648px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.ecobazar-title {
+	color: #00b207;
+	font-weight: 700;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.ecobazar-content {
+}
+
+.ecobazar-content > p,
+.ecobazar-list {
+	margin-bottom: 20px;
+}
+
+.ecobazar-content .last {
+	margin-bottom: 0;
+}
+
+.ecobazar-item {
+	margin-bottom: 14px;
+	padding-left: 28px;
+	background: url("../img/check.svg") 0 0 / 20px no-repeat;
+	min-height: 20px;
+}
+
+/* HYDRA */
+
+.hydra {
+	font-family: "Montserrat", sans-serif;
+	background-color: #302c42;
+	color: #fff;
+}
+
+.hydra-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.hydra-title {
+	color: #fff;
+	font-weight: 700;
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+
+.hydra-contact-section {
+	margin-bottom: 90px;
+	padding-left: 84px;
+	padding-right: 84px;
+}
+
+.hydra-contact-items {
+	border-radius: 90px;
+	background: radial-gradient(circle, rgba(58,52,86,0.95) 0%, rgba(33,30,46,1) 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	padding: 25px 0;
+	font-size: 0;
+}
+
+.hydra-item {
+	display: inline-block;
+	width: 33.333%;
+	padding: 27px 30px;
+	vertical-align: middle;
+}
+
+.location {
+	background: url("../img/location-icon.svg") 0 0 / 70px no-repeat;
+	min-height: 70px;
+	padding-top: 10px;
+	padding-left: 70px;
+}
+
+.phone {
+	background: url("../img/phone-call.svg") 0 0 / 59px no-repeat;
+	min-height: 59px;
+	padding-top: 10px;
+	padding-left: 88px;
+}
+
+.mail {
+	background: url("../img/mail.svg") 0 0 / 65px no-repeat;
+	min-height: 65px;
+	padding-top: 10px;
+	padding-left: 89px;
+}
+
+.hydra-item-title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.hydra-item-text {
+	font-size: 14px;
+}
+
+.bordered {
+	border-left: 1px solid rgba(192, 183, 232, 0.33);
+	border-right: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.hydra-about-section {
+	padding-bottom: 60px;
+	background: url('../img/line-vector-1.svg') 0 10px no-repeat, url('../img/line-vector-2.svg') 0 295px no-repeat;
+}
+
+.hydra-about-block {
+	padding-left: 84px;
+	padding-right: 84px;
+}
+
+.hydra-image-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hydra-image {
+	display: inline-block;
+	max-width: 524px;
+	width: 100%;
+	margin-right: 108px;
+	border-radius: 240px 100px ;
+	background: #a3a3a3;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.about-content {
+	width: 630px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.about-title {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.about-subtitle {
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.95);
+	margin-bottom: 42px;
+}
+
+.about-text {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 28px;
+}
+
+.about-button {
+	padding: 16px 42px;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	color: #343045;
+}
