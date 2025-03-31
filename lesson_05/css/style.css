@@ -101,20 +101,22 @@ h1.title {
 	padding-bottom: 112px;
 }
 
-.business-block {
-	max-width: 1050px;
+.business-container {
+	max-width: 1080px;
 	margin: 0 auto;
-	overflow: hidden;
+	padding: 0 15px;
 }
 
-.block-business {
+.business-top-block {
 	max-width: 765px;
+	font-family: "Circular Std", sans-serif;
+	font-size: 14px;
+	color: #fff;
 	margin-bottom: 70px;
 }
 
-.business-block, .subtitle {
+.buseniss-label {
 	font-family: "Montserrat", sans-serif;
-	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.71;
 	color: #5a54f2;
@@ -122,17 +124,13 @@ h1.title {
 	margin-bottom: 10px;
 }
 
-.business-block, .explore-title {
-	font-family: "Circular Std", sans-serif;
+.buseniss-title {
 	font-size: 36px;
 	font-weight: 700;
-	color: #fff;
 	margin-bottom: 10px;
 }
 
-.business-block, .text {	
-	font-family: "Circular Std", sans-serif;
-	font-size: 14px;
+.buseniss-text {
 	font-weight: 450;
 	line-height: 1.43;
 	letter-spacing: 0.2px;
@@ -140,33 +138,28 @@ h1.title {
 
 .cards {
 	font-size: 0;
-	margin-left: -15px;
-	margin-right: -15px;
+}
+
+.cards-wrapp {
+	margin: 0 -20px;
 }
 
 .card {
 	display: inline-block;
-	width: 230px;
-	padding: 35px 40px;
-	margin-right: 30px;
-	background-color: #fff;
+	width: 25%;
+	padding: 0 20px;
+	font-size: 14px;
 	vertical-align: top;
 }
 
-.card.even {
-	background-color: #5a54f2;
-}
-
-.even .card-title,
-.even .card-text {
-	color: #fff;
-}
-
-.card.bottom {
-	margin-top: 48px;
+.card-content {
+	padding: 35px 40px;
+	background-color: #fff;
 }
 
 .card-image {
+	max-width: 72px;
+	width: 100%;
 	margin-bottom: 20px;
 }
 
@@ -187,9 +180,6 @@ h1.title {
 	margin-bottom: 20px;
 	background-color: #e74040;
 }
-.even .card-line {
-	background-color: #fff;
-}
 
 .card-text {
 	font-family: "Montserrat", sans-serif;
@@ -197,6 +187,22 @@ h1.title {
 	line-height: 1.43;
 	letter-spacing: 0.2px;
 	color: #737373;
+}
+
+.card-top-space {
+	margin-top: 48px;
+}
+
+.card-accent .card-content {
+	background-color: #5a54f2;
+}
+
+.card-accent * {
+	color: #fff;
+}
+
+.card-accent .card-line {
+	background-color: #fff;
 }
 
 footer {
