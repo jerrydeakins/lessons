@@ -118,7 +118,7 @@ h1.title {
 	line-height: 1.71;
 	color: #5a54f2;
 	letter-spacing: 0.2px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .business-block, .explore-title {
@@ -126,7 +126,7 @@ h1.title {
 	font-size: 36px;
 	font-weight: 700;
 	color: #fff;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .business-block, .text {	
