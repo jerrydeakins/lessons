@@ -1,0 +1,424 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Локальне підключення шрифтів */
+/* @import url("fonts.css"); */
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+[class*="__container"] {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.header__container{
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.logo {
+	display: inline-block;
+	max-width: 250px;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	vertical-align: middle;
+}
+
+.nav__items {
+	display: inline-block;
+	font-size: 0;
+	vertical-align: middle;
+}
+
+.nav__items > li {
+	display: inline-block;
+	font-size: 16px;
+}
+
+.nav__items > li:not(:last-child) {
+	margin-right: 20px;
+}
+
+.nav__items > li a {
+	padding: 5px 20px;
+	background-color: #8cd7fa;
+	border-radius: 5px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #181818;
+}
+
+.nav__items > li a:hover {
+	text-decoration: underline;
+}
+
+.nav__items > li a:visited {
+	color: #412672;
+}
+
+.page {
+	padding-top: 30px;
+}
+
+[class*="section__"]:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.home__title{
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.home__title::before,
+.home__title::after {
+	content: "";
+	height: 2px;
+	width: 20%;
+	background-color: #181818;
+}
+
+/* section faculty */
+
+.section__faculty {
+	background-color: #412672;
+}
+
+.faculty__container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+.faculty__titles {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.title-label {
+	font-size: 38px;
+}
+
+.faculty-title {
+	font-size: 38px;
+	font-weight: 700;
+}
+
+.faculty__cards {
+	font-size: 0;
+}
+
+.cards-wrapp {
+	margin: 0 -10px;
+}
+
+.card {
+	display: inline-block;
+	width: 33.333%;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+.card-content {
+	padding: 20px;
+	background-color: #fff;
+	min-height: 476px;
+}
+
+
+.card-content:hover {
+	background-color: #FFBE48;
+}
+
+.card-content > * {
+	font-size: 15px;
+	margin-bottom: 16px;
+}
+
+.card-content > *:last-child {
+	margin-bottom: 0;
+}
+
+.card-content h4 {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.card-content img {
+	width: 100%;
+}
+
+.card-content > p {
+	line-height: 1.26;
+}
+
+.card-content a {
+	font-size: 15px;
+	color: #fe3f3f;
+}
+
+.card-content a:hover {
+	text-decoration: underline;
+}
+
+/* california */
+
+.section__california {
+}
+
+.california__container {
+	padding: 55px 60px;
+}
+.california__titles {
+	max-width: 518px;
+	margin: 0 auto;
+	color: #412672;
+}
+.california-label {
+	font-size: 34px;
+	line-height: 1.2;
+}
+.california-title {
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.california-text {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.california-list {
+	padding: 13px 0;
+}
+
+.california-list > li {
+	margin-bottom: 21px;
+}
+
+.california-list > li:last-child {
+	margin-bottom: 0;
+}
+
+.california-list > li::before {
+	content: "";
+	width: 29px;
+	height: 29px;
+	background: url('../img/icon.svg') 0 0 no-repeat;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+/* Game Till the end */
+
+.section__game {
+	font-family: "Gilroy", sans-serif;
+	background-color: #fffeb4;
+	padding-top: 60px;
+	min-height: 800px;
+}
+
+.games__container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.game-title {
+	display: inline-block;
+	font-size: 28px;
+	font-weight: 700;
+	color: #2e2e2e;
+	margin-bottom: 30px;
+}
+
+.game-title::after {
+	content: "";
+	height: 2px;
+	width: 80%;
+	background-color: #2e2e2e;
+	display: block;
+	margin-top: 2px;
+	
+}
+
+[class*="game_"]:not(.game_level-0){
+    visibility: hidden;
+    background: #6ebdfd;
+    text-align: center;
+	font-size: 12px;
+}
+
+.game_level-0{
+	width: 40px;
+	height: 40px;
+	margin-left: -10px;
+	background: #90c514;
+}
+
+.game_level-1{
+    width: 380px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: -40px;
+
+}
+.game_level-2{
+    width: 30px;
+    height: 80px;
+    margin-left: 380px;
+    margin-top: -20px;
+}
+
+.game_level-3 {
+	width: 60px;
+	height: 30px;
+	margin-left: 350px;
+	margin-top: -10px;
+}
+
+.game_level-4 {
+	width: 10px;
+	height: 40px;
+	margin-left: 350px;
+	margin-top: -10px;
+}
+
+.game_level-5 {
+	width: 200px;
+	height: 25px;
+	margin-left: 160px;
+	margin-top: -25px;
+}
+
+.game_level-6 {
+	width: 10px;
+	height: 80px;
+	margin-left: 160px;
+	margin-top: -10px;
+}
+
+.game_level-7 {
+	width: 400px;
+	height: 10px;
+	margin-left: 160px;
+	margin-top: -10px;
+}
+
+.game_level-8 {
+	width: 30px;
+	height: 60px;
+	margin-left: 560px;
+	margin-top: -10px;
+}
+
+.game_level-9 {
+	width: 200px;
+	height: 20px;
+	margin-left: 360px;
+	margin-top: -20px;
+}
+
+.game_level-10 {
+	width: 10px;
+	height: 100px;
+	margin-left: 360px;
+	margin-top: -10px;
+}
+
+.game_level-11 {
+	width: 300px;
+	height: 30px;
+	margin-left: 70px;
+	margin-top: -10px;
+}
+
+.game_level-12 {
+	width: 20px;
+	height: 80px;
+	margin-left: 70px;
+	margin-top: -100px;
+}
+
+.game_level-13 {
+	width: 50px;
+	height: 30px;
+	margin-left: 25px;
+	margin-top: -80px;
+}
+
+.game_level-14 {
+	width: 10px;
+	height: 120px;
+	margin-left: 25px;
+	margin-top: -10px;
+}
+
+.game_level-15 {
+	width: 700px;
+	height: 30px;
+	margin-left: 25px;
+	margin-top: -20px;
+}
+
+.game_level-16 {
+	width: 15px;
+	height: 60px;
+	margin-left: 720px;
+	margin-top: -30px;
+}
+
+.game_level-17 {
+	width: 600px;
+	height: 20px;
+	margin-left: 135px;
+	margin-top: -10px;
+}
+
+.game_level-18 {
+	width: 40px;
+	height: 60px;
+	margin-left: 135px;
+	margin-top: -10px;
+}
+
+.game_level-19 {
+	width: 400px;
+	height: 60px;
+	margin-left: 135px;
+	margin-top: -10px;
+	font-size: 24px;
+}
+
+.games__container > *:hover + *,
+.games__container > *:hover {
+	visibility: visible;
+}
+
+.footer__container	{
+	padding: 20px 5px;
+}
+
+.footer__container p {
+	text-align: right;
+}
