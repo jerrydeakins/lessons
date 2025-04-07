@@ -214,6 +214,9 @@ body {
 
 .california-list > li {
 	margin-bottom: 21px;
+	padding-left: 50px;
+	font-size: 20px;
+	color: #4F4F4F;
 }
 
 .california-list > li:last-child {
@@ -224,9 +227,10 @@ body {
 	content: "";
 	width: 29px;
 	height: 29px;
-	background: url('../img/icon.svg') 0 0 no-repeat;
+	background: url('../img/icon.svg') center / 29px no-repeat;
 	vertical-align: middle;
-	margin-right: 15px;
+	margin-right: 20px;
+	margin-left: -50px;
 }
 
 /* Game Till the end */
