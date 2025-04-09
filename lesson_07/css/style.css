@@ -163,6 +163,8 @@ body {
 }
 
 .card-content img {
+	max-width: 347px;
+	max-height: 266px;
 	width: 100%;
 }
 
@@ -192,11 +194,14 @@ body {
 	max-width: 518px;
 	margin: 0 auto;
 	color: #412672;
-}
-.california-label {
-	font-size: 34px;
 	line-height: 1.2;
 }
+
+
+.california-title > span {
+	font-weight: 400;
+}
+
 .california-title {
 	font-size: 34px;
 	font-weight: 700;
@@ -217,6 +222,7 @@ body {
 	padding-left: 50px;
 	font-size: 20px;
 	color: #4F4F4F;
+	line-height: 1.45;
 }
 
 .california-list > li:last-child {
@@ -228,7 +234,7 @@ body {
 	width: 29px;
 	height: 29px;
 	background: url('../img/icon.svg') center / 29px no-repeat;
-	vertical-align: middle;
+	vertical-align: bottom;
 	margin-right: 20px;
 	margin-left: -50px;
 }
