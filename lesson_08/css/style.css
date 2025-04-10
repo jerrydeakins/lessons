@@ -38,6 +38,7 @@ body {
 
 .header {
 	background-color: #063c7a;
+	margin-bottom: 50px;
 }
 
 .header__container {
@@ -67,7 +68,7 @@ body {
 }
 
 .page {
-	padding-top: 50px;
+
 }
 
 .bg__container {
