@@ -1,0 +1,152 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Gilroy", sans-serif;
+	font-size: 20px;
+	background: url('../img/bubbles.svg');
+	background-color: #fbf7e6;
+	background-size: 100px;
+	background-attachment: fixed;
+	background-position: center;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 1px 0px 5px 2px rgba(0,0,0,0.36);
+}
+
+[class*="__container"] {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #063c7a;
+}
+
+.header__container {
+	padding: 10px 20px;
+}
+
+.header__logo {
+	display: inline-block;
+	max-height: 128px;
+	vertical-align: middle;
+}
+
+.header__logo img {
+	width: 357px;
+	height: 82px;
+}
+
+.nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav p {
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.page {
+	padding-top: 50px;
+}
+
+.bg__container {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 50px;
+}
+
+.page__title {
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.page__title span {
+	font-weight: 400;
+}
+
+.page__title::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 5px;
+	background-color: #852bcf;
+}
+
+.bg__image-x {
+	
+}
+
+.bg__image-x img {
+	margin-bottom: 15px;
+}
+
+.list-image__container {
+	padding: 50px 20px 50px;
+	background-color: #8dc1c1;
+}
+
+.list {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+}
+.list__items-small{
+
+}
+
+.list__items-small > li:not(:last-child) {
+	margin-bottom: 24px;
+}
+
+.list__items-small > li img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.image {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.image img {
+	width: 557px;
+	height: 549px;
+	border-radius: 150px 0 150px 0;
+	margin-bottom: 15px;
+}
+
+.image p {
+	
+}
+
+.footer__container {
+	padding: 20px 10px;
+	font-size: 16px;
+	background-color: #063c7a;
+	color: #fff;
+	text-align: right;
+}
