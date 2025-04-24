@@ -1,0 +1,390 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Компоненти */
+/* @import url("button.css"); */
+
+/* Основні стилі */
+body {
+	font-family: "Gilroy", sans-serif;
+	/* background-color: #333;
+	color: #fff; */
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+[class*="__container"] {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.logo {
+	background-color: #7a956b;
+}
+
+.logo__title {
+	font-size: 24px;
+	font-weight: 700;
+	padding: 30px;
+}
+
+.logo__title span {
+	font-weight: 400;
+}
+
+.page {}
+
+/* Products section */
+
+.products {}
+
+.products--mb {
+	margin-bottom: 80px;
+}
+
+.products__container {
+	padding-top: 30px;
+}
+
+.products__items {
+	font-size: 0;
+}
+
+.cards {
+	font-family: "Poppins", sans-serif;
+}
+
+.cards__item {
+	display: inline-block;
+	width: 25%;
+	border: 1px solid #e6e6e6;
+	
+}
+
+.cards__item:not(:last-child) {
+	border-right: 1px solid transparent;
+}
+
+.cards__item:hover {
+	border: 1px solid #2c742f;
+	box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+
+.cards__image {
+	position: relative;
+	padding: 5px;
+}
+
+.image-block {
+	
+}
+
+.image-block__product {
+	width: 100%;
+}
+
+.image-block__button {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.cards__item:hover .image-block__button {
+	visibility: visible;
+	opacity: 1;
+}
+
+.button-card {}
+
+.button-card__link {
+	display: block;
+	position: relative;
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #f2f2f2;
+	background-color: #fff;
+}
+
+.button-card__link:hover {
+	background-color: #00b207;
+	border: 1px solid transparent;
+}
+
+.button-card__link:not(:last-child) {
+	margin-bottom: 6px;
+}
+
+.button-card__link--basket {
+	stroke: #2e2e2e;
+	background-color: #f2f2f2;
+}
+
+.button-card__img {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+}
+
+.cards__info {
+	position: relative;
+	padding: 12px;
+}
+
+.info-block {}
+
+.info-block__title {
+	font-size: 14px;
+	color: #4D4D4D;
+	line-height: 1.5;
+}
+
+.cards__item:hover .info-block__title,
+.cards__item:hover .button-card__link--basket {
+	color: #2c742f;
+	stroke: #fff;
+}
+
+.info-block__price {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.info-block__basket {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+
+.cards__item:hover .info-block__basket .button-card__link {
+	background-color: #00b207;
+}
+
+/* Business section */
+
+.business {
+	min-height: 400px;
+	background-color: #fff;
+}
+
+.business--header {
+	position: relative;
+	background-color: #5a54f2;
+	z-index: 1;
+}
+
+.business--header:before,
+.business--header:after {
+	content: "";
+	position: absolute;
+	left: -11%;
+	width: 125%;
+	height: 74px;
+}
+
+.business--header:before {
+	top: 0;
+	border-radius: 0% 0% 50% 50% / 0% 0% 100% 100%;
+	background-color: #fff;
+}
+
+.business--header:after {
+	bottom: 0;
+	border-radius: 50% 50% 0% 0% / 100% 100% 0% 0%;
+	background-color: #231f8b;
+}
+
+.business__container {
+	position: relative;
+	max-width: 1494px;
+	z-index: 2;
+}
+
+.business__container::before {
+	content: "";
+	position: absolute;
+	top: 420px;
+	left: -100px;
+	background: url("../img/dot-vertical.png") no-repeat;
+	width: 214px;
+	height: 472px;
+}
+
+.business__container::after {
+	content: "";
+	position: absolute;
+	bottom: 145px;
+	right: 50px;
+	background: url("../img/dot-horizontal.png") no-repeat;
+	width: 472px;
+	height: 214px;
+}
+
+.business__block {}
+
+.business__block:not(:last-child) {
+	margin-bottom: 55px;
+}
+
+.block-business {
+	font-size: 0;
+}
+
+.block-business__figure {
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+}
+
+.block-business__image {
+	max-width: 430px;
+	max-height: 548px;
+	border-radius: 20px;
+}
+
+.block-business__image--odd {
+	margin-right: 70px;
+	box-shadow: -25px 20px 44px 0px rgba(84, 48, 209, 0.40);
+}
+
+.block-business__image--even {
+	box-shadow: 22px 42px 44px 0px rgba(0, 0, 0, 0.30);
+}
+
+.block-business__ellipses {}
+
+.block-business__ellipses::before {
+	content: "";
+	position: absolute;
+	top: 150px;
+	left: -140px;
+	background: url("../img/small-ellipse.svg") no-repeat;
+	width: 65px;
+	height: 65px;
+	z-index: -1;
+}
+
+.block-business__ellipses::after {
+	content: "";
+	position: absolute;
+	top: 210px;
+	left: -120px;
+	background: url("../img/big-ellipse.svg") no-repeat;
+	width: 401px;
+	height: 401px;
+	z-index: -1;
+}
+
+.block-business__ellipses-even {}
+
+.block-business__ellipses-even::before {
+	content: "";
+	position: absolute;
+	top: -48px;
+	right: 273px;
+	background: url("../img/small-ellipse.svg") no-repeat;
+	width: 65px;
+	height: 65px;
+}
+
+.block-business__ellipses-even::after {
+	content: "";
+	position: absolute;
+	top: -26px;
+	right: -129px;
+	background: url("../img/middle-ellipse.svg") no-repeat;
+	width: 262px;
+	height: 262px;
+	z-index: -1;
+}
+
+.block-business__text {
+	display: inline-block;
+	max-width: 650px;
+	vertical-align: middle;
+} 
+
+.block-text {}
+
+.block-text--even {
+	margin-left: 250px;
+	margin-right: 70px;
+}
+
+.block-text__title {
+	font-family: "Circular Std", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #fff;
+	margin-bottom: 13px;
+}
+
+.block-text__title--even {
+	max-width: 506px;
+}
+
+.block-text__copy {
+	max-width: 490px;
+	font-family: "Robot", sans-serif;
+	font-size: 18px;
+	line-height: 1.66;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.block-text__button {}
+
+.button {}
+
+.button__link {
+	font-family: "Robot", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 22px 26px;
+	border-radius: 60px;
+	color: #fff;
+	background-color: #F35B09;
+}
+
+.button__link:hover {
+	background-color: #d35B09;
+}
+
+.business--footer {
+	background-color: #231f8b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
