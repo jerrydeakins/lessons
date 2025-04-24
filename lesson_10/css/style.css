@@ -147,16 +147,17 @@ body {
 
 .info-block {}
 
-.info-block__title {
+.info-block__link {
 	font-size: 14px;
 	color: #4D4D4D;
 	line-height: 1.5;
 }
 
-.cards__item:hover .info-block__title,
+.cards__item:hover .info-block__link,
 .cards__item:hover .button-card__link--basket {
 	color: #2c742f;
 	stroke: #fff;
+	text-decoration: underline;
 }
 
 .info-block__price {
