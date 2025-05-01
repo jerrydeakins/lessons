@@ -120,6 +120,10 @@ body {
 	background-color: #fff;
 }
 
+.button-card__link svg {
+	max-width: 100%;
+}
+
 .button-card__link:hover {
 	background-color: #00b207;
 	border: 1px solid transparent;
@@ -222,21 +226,11 @@ body {
 .business__container::before {
 	content: "";
 	position: absolute;
-	top: 420px;
-	left: -100px;
+	top: 36%;
+	left: -8%;
 	background: url("../img/dot-vertical.png") no-repeat;
 	width: 214px;
 	height: 472px;
-}
-
-.business__container::after {
-	content: "";
-	position: absolute;
-	bottom: 145px;
-	right: 50px;
-	background: url("../img/dot-horizontal.png") no-repeat;
-	width: 472px;
-	height: 214px;
 }
 
 .business__block {}
@@ -252,6 +246,16 @@ body {
 .block-business--even {
 	max-width: 1006px;
 	margin-left: auto;
+}
+
+.block-business--even::after {
+content: "";
+position: absolute;
+bottom: 13%;
+right: -15%;
+background: url("../img/dot-horizontal.png") no-repeat;
+width: 472px;
+height: 214px;
 }
 
 .block-business__figure {
