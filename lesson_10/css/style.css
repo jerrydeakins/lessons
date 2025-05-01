@@ -159,6 +159,10 @@ body {
 	text-decoration: underline;
 }
 
+.info-block__title {
+	width: calc(100% - (40px + 10px));
+}
+
 .info-block__price {
 	font-size: 16px;
 	font-weight: 500;
