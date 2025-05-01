@@ -331,8 +331,6 @@ body {
 .block-text {}
 
 .block-text--even {
-	/* max-width: 506px;
-	margin-left: auto; */
 	margin-right: 70px;
 }
 
