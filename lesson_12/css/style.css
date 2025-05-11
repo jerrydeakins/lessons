@@ -157,18 +157,18 @@ body {
 	border-radius: 5px;
 }
 
-.transport__grid-item {
+.transport__line-grid {
 	display: block;
 	width: 100%;
 	height: 1px;
 	background-color: #fff;
 }
 
-.transport__grid-item:not(:last-child) {
+.transport__line-grid:not(:last-child) {
 	margin-bottom: 8px;
 }
 
-.transport__grid-item::before {
+.transport__line-grid::before {
 	content: "";
 	position: absolute;
 	top: 50%;
