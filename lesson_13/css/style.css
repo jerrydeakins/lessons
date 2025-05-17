@@ -276,6 +276,12 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 20px 0;
+	gap: 20px;
+}
+
+.footer__left {
+	flex-basis: 300px;
+	flex-shrink: 0;
 }
 
 .footer__left,
