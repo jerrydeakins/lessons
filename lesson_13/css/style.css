@@ -174,7 +174,7 @@ body {
 
 .learning__list {
 	display:flex;
-	gap: 30px;
+	gap: 20px;
 	flex-direction: column;
 }
 
