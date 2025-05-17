@@ -32,11 +32,12 @@ body {
 	padding: 20px 0;
 }
 
-.header__flex {
+.header__container {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	gap: 100px;
+	column-gap: 100px;
+	row-gap: 20px;
 }
 
 .header__logo {
