@@ -56,11 +56,14 @@ body {
 
 .logo__icon {}
 
+.logo__link {}
+
 .logo__title {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 1.5; 
 	text-transform: uppercase;
+	transition: color 0.3s ease-in-out;
 }
 
 .header__menu {}
@@ -184,6 +187,10 @@ body {
 
 
 @media (any-hover: hover) {
+
+	.logo__title:hover {
+		color:#df591b;
+	}
 	.button:hover {
 		background-color: #df591b;
 	}
