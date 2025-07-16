@@ -240,7 +240,7 @@ body {
 	grid-column: 1/-1;
 	align-content: center;
 	font-family: "KoPub Batang", serif;
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: 300;
 	line-height: 1.1;
 	color: #000;
@@ -677,12 +677,6 @@ body {
 
 	.floral-catalog__more-link {
 		justify-self: start;
-	}
-}
-
-@media (max-width: 999.98px) {
-	.main-catalog__title {
-		font-size: 50px;
 	}
 }
 
