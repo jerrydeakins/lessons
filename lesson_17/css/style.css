@@ -130,7 +130,7 @@ body {
 .catalog__container {
 	max-width: 1230px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	justify-content: space-between;
 	gap: 30px;
 }
@@ -667,7 +667,7 @@ body {
 		padding: 50px 0;
 	}
 	.catalog__container {
-		flex-direction: row;
+		flex-direction: row-reverse;
         justify-content: space-between;
 	}
 
