@@ -289,7 +289,7 @@ body {
 
 .products-top__lists {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(min(186px, 50%), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(min(208px, 50%), 1fr));
 	gap: 20px;
     margin-bottom: 24px;
 }
@@ -683,10 +683,6 @@ body {
 @media (max-width: 999.98px) {
 	.main-catalog__title {
 		font-size: 50px;
-	}
-	
-	.products-top__lists {
-		grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 	}
 }
 
