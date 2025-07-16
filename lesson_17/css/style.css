@@ -130,7 +130,7 @@ body {
 .catalog__container {
 	max-width: 1230px;
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	justify-content: space-between;
 	gap: 30px;
 }
