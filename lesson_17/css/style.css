@@ -161,6 +161,7 @@ body {
 .catalog-floral__image {
 	width: 100%;
 	height: 100%;
+	aspect-ratio: 369 / 378;
 	object-fit: cover;
 	transition: transform .4s ease-in-out;
 	will-change: transform;
@@ -550,11 +551,14 @@ body {
 .bottom-product__imagewrap {
 	padding: 5px;
 	z-index: 1;
+	flex-shrink: 0;
+	max-width: 114px;
 }
 
 .bottom-ptoduct__image {
 	width: 100%;
 	height: 100%;
+	aspect-ratio: 1;
 	object-fit: contain;
 }
 
