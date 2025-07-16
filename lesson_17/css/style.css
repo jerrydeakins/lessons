@@ -77,6 +77,14 @@ body {
 		opacity: 1;
 	}
 
+	.products-top__item .products-top__action {
+		position: absolute;
+		top: 16px;
+		right: 16px;
+		opacity: 0;
+		transition: opacity 0.3s, visibility 0.3s;
+}
+
     .button:hover {
         background-color: #00B207;
         stroke: white;
@@ -113,6 +121,11 @@ body {
 
 /* Якщо курсору немає  */
 @media (any-hover: none), (pointer: coarse) {
+		.products-top__item .products-top__action {
+		position: absolute;
+		top: 16px;
+		right: 16px;
+}
 
 }
 
@@ -171,12 +184,15 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 14px;
+	flex-grow: 1;
 }
 
 .floral-catalog__item {
 	display: flex;
 	justify-content: space-between;
 	gap: 20px;
+	line-height: 1.2;
+	flex-grow: 1;
 }
 
 .floral-catalog__title {
@@ -384,25 +400,30 @@ body {
     transition: opacity 0.4s;
 }
 
-.products-top__labels, 
-.products-top__action {
+.products-top__labels {
     position: absolute;
 	display: flex;
     flex-direction: column;
 	top: 16px;
+	left: 16px;
     gap: 6px;
     z-index: 2;
 }
 
-.products-top__labels {
-	left: 16px;
+.products-top__action {
+	display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 2;
+	overflow: hidden;
+	/* transition: opacity 0.3s, visibility 0.3s; */
 }
 
 .products-top__action {
-    right: 16px;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s, visibility 0.3s;
+    /* right: 16px; */
+    
+    /* visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s; */
 }
 
 .label {
