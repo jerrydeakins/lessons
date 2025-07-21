@@ -27,8 +27,8 @@
                             <li class="food-article__users"></li>
                             <li class="food-article__comments"></li>
                         </ul>
-                        <h1 class="food-article__title">Maecenas tempor urna sed quam mollis, a placerat dui fringill
-                            Suspendisse.</h1>
+                        <h2 class="food-article__title">Maecenas tempor urna sed quam mollis, a placerat dui fringill
+                            Suspendisse.</h2>
                         <div class="food-article__submeta submeta">
                             <div class="submeta__content">
                                 <img src="#" alt="User" class="submeta__img">
@@ -88,8 +88,8 @@
                     </section>
 
                     <section class="food-article__content content-article">
-                        <h2>Maecenas lacinia felis nec placerat sollicitudin. Quisque placerat dolor at scelerisque
-                            imperdiet. Phasellus tristique felis dolor.</h2>
+                        <h3>Maecenas lacinia felis nec placerat sollicitudin. Quisque placerat dolor at scelerisque
+                            imperdiet. Phasellus tristique felis dolor.</h3>
                         <p>Maecenas elementum in risus sed condimentum. Duis convallis ante ac tempus maximus. Fusce
                             malesuada sed velit ut dictum. Morbi faucibus
                             vitae orci at euismod. Integer auctor augue in erat vehicula, quis fermentum ex finibus.
@@ -113,22 +113,22 @@
                             Nullam faucibus iaculis convallis. In ullamcorper nibh ipsum, eget lacinia eros pulvinar a.
                             Integer accumsan arcu nec faucibus ultricies.
                         </p>
-                    </section>
-
-                    <section class="food-article__sales sale-article">
-                        <picture class="sale-article__image">
-                            <source srcset="#" type="image/webp">
-                            <img src="#" alt="Summer sales">
-                        </picture>
-                        <div class="sale-article__text">
-                            <h2 class="sale-article__subtitle">summer sales</h2>
-                            <div class="sale-article__title">Fresh Fruit</div>
-                            <a href="#" class="sale-article__button">Shop Now</a>
-                        </div>
-                        <div class="sale-article__percent percent-circle">
-                            <div class="percent-circle__top">up to</div>
-                            <div class="percent-circle__percent">56%</div>
-                            <div class="percent-circle__bottom">Off</div>
+                    
+                        <div class="food-article__sales sale-article">
+                            <picture class="sale-article__image">
+                                <source srcset="#" type="image/webp">
+                                <img src="#" alt="Summer sales">
+                            </picture>
+                            <div class="sale-article__text">
+                                <div class="sale-article__subtitle">summer sales</div>
+                                <div class="sale-article__title">Fresh Fruit</div>
+                                <a href="#" class="sale-article__button">Shop Now</a>
+                            </div>
+                            <div class="sale-article__percent percent-circle">
+                                <div class="percent-circle__top">up to</div>
+                                <div class="percent-circle__percent">56%</div>
+                                <div class="percent-circle__bottom">Off</div>
+                            </div>
                         </div>
                     </section>
                 </div>
@@ -165,43 +165,51 @@
                 <h3 class="comments__title">Comments</h3>
                 <ul class="comments__list">
                     <li class="comments__item">
-                        <img src="#" alt="User" class="comments__userimg">
-                        <div class="comments__username"></div>
-                        <time datetime="2021-04-26" class="comments__date">26 Apr, 2021</time>
-                        <blockquote class="comments__text">
-                            In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam
-                            malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.
-                        </blockquote>
+                        <article class="comments__article">
+                            <img src="#" alt="User" class="comments__userimg">
+                            <h3 class="comments__username">Annette Black</h3>
+                            <time datetime="2021-04-26" class="comments__date">26 Apr, 2021</time>
+                            <blockquote class="comments__text">
+                                In a nisi commodo, porttitor ligula consequat, tincidunt dui. Nulla volutpat, metus eu aliquam
+                                malesuada, elit libero venenatis urna, consequat maximus arcu diam non diam.
+                            </blockquote>
+                        </article>
                     </li>
                     <li class="comments__item">
-                        <img src="#" alt="User" class="comments__userimg">
-                        <div class="comments__username"></div>
-                        <time datetime="2021-04-24" class="comments__date">24 Apr, 2021</time>
-                        <blockquote class="comments__text">Quisque eget tortor lobortis, facilisis metus eu, elementum est.
-                            Nunc sit amet erat quis ex convallis suscipit. Nam hendrerit, velit ut aliquam euismod, nibh
-                            tortor rutrum nisi, ac sodales nunc eros porta nisi. Sed scelerisque, est eget aliquam
-                            venenatis, est sem tempor eros.</blockquote>
+                        <article class="comments__article">
+                            <img src="#" alt="User" class="comments__userimg">
+                            <h3 class="comments__username">Devon Lane</h3>
+                            <time datetime="2021-04-24" class="comments__date">24 Apr, 2021</time>
+                            <blockquote class="comments__text">Quisque eget tortor lobortis, facilisis metus eu, elementum est.
+                                Nunc sit amet erat quis ex convallis suscipit. Nam hendrerit, velit ut aliquam euismod, nibh
+                                tortor rutrum nisi, ac sodales nunc eros porta nisi. Sed scelerisque, est eget aliquam
+                                venenatis, est sem tempor eros.</blockquote>
+                        </article>
                     </li>
                     <li class="comments__item">
-                        <img src="#" alt="User" class="comments__userimg">
-                        <div class="comments__username"></div>
-                        <time datetime="2021-04-20" class="comments__date">20 Apr, 2021</time>
-                        <p class="comments__text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-                            cubilia curae.</p>
+                        <article class="comments__article">
+                            <img src="#" alt="User" class="comments__userimg">
+                            <h3 class="comments__username">Jacob Jones</h3>
+                            <time datetime="2021-04-20" class="comments__date">20 Apr, 2021</time>
+                            <blockquote class="comments__text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</blockquote>
+                        </article>
                     </li>
                     <li class="comments__item">
-                        <img src="#" alt="User" class="comments__userimg">
-                        <div class="comments__username"></div>
-                        <time datetime="2021-04-18" class="comments__date">18 Apr, 2021</time>
-                        <p class="comments__text">Pellentesque feugiat, nibh vel vehicula pretium, nibh nibh bibendum elit,
-                            a volutpat arcu dui nec orci. Aenean dui odio, ullamcorper quis turpis ac, volutpat imperdiet
-                            ex.</p>
+                        <article class="comments__article">
+                            <img src="#" alt="User" class="comments__userimg">
+                            <h3 class="comments__username">Jane Cooper</h3>
+                            <time datetime="2021-04-18" class="comments__date">18 Apr, 2021</time>
+                            <blockquote class="comments__text">Pellentesque feugiat, nibh vel vehicula pretium, nibh nibh bibendum elit,
+                                a volutpat arcu dui nec orci. Aenean dui odio, ullamcorper quis turpis ac, volutpat imperdiet ex.</blockquote>
+                        </article>
                     </li>
                     <li class="comments__item">
-                        <img src="#" alt="User" class="comments__userimg">
-                        <div class="comments__username"></div>
-                        <time datetime="2021-04-07" class="comments__date">7 Apr, 2021</time>
-                        <p class="comments__text">Nulla molestie interdum ultricies. </p>
+                        <article class="comments__article">
+                            <img src="#" alt="User" class="comments__userimg">
+                            <h3 class="comments__username">Darrell Steward</h3>
+                            <time datetime="2021-04-07" class="comments__date">7 Apr, 2021</time>
+                            <blockquote class="comments__text">Nulla molestie interdum ultricies. </blockquote>
+                        </article>
                     </li>
                 </ul>
 
